@@ -471,6 +471,50 @@ chunk like this:</p>
 code chunk to prevent printing of the R code that generated the
 plot.</p>
 </div>
+<div id="insert-tables" class="section level2">
+<h2>Insert Tables</h2>
+<pre class="r"><code>knitr::kable(head(cars),
+             caption = &quot;Top 6 Rows of Cars Dataset&quot;)</code></pre>
+<table>
+<caption>Top 6 Rows of Cars Dataset</caption>
+<thead>
+<tr class="header">
+<th align="right">speed</th>
+<th align="right">dist</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">4</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="right">10</td>
+</tr>
+<tr class="odd">
+<td align="right">7</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="right">7</td>
+<td align="right">22</td>
+</tr>
+<tr class="odd">
+<td align="right">8</td>
+<td align="right">16</td>
+</tr>
+<tr class="even">
+<td align="right">9</td>
+<td align="right">10</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="insert-an-equation" class="section level2">
+<h2>Insert an equation</h2>
+<p><span class="math display">\[ Y = \beta_0 + \beta_1x\]</span></p>
+</div>
 </div>
 
 
